@@ -36,7 +36,10 @@ pytest -q                                                                       
 
 ## Data
 CICIoT2023, CICIoMT2024 and CIC IoT-DIAD2024 are public datasets of the Canadian Institute for Cybersecurity. The repository does not redistribute them.
-[Dataset links/versions to be completed by the authors.]
+https://www.unb.ca/cic/datasets/iotdataset-2023.html
+https://www.unb.ca/cic/datasets/iomt-dataset-2024.html
+https://www.unb.ca/cic/datasets/iot-diad-2024.html
 
-## Citation and licence
-See `CITATION.cff`. Code is released under the MIT licence (`LICENSE`) - change it if your institution requires another licence.
+## Citation
+If you use this code or methodology, please cite:
+> V. Soni, A. Jha. "AEGIS-Net: An Imbalance-Aware CNN–Attention-BiLSTM Framework for Multi-Class IoT Intrusion Detection with Cross-Dataset Evaluation," *International Journal of Intelligent Engineering & Systems*, 2026 (Under Review).
