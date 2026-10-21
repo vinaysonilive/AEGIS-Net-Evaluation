@@ -1,0 +1,19 @@
+ciciomt2024_label,records,ciciot2023_label,mapping
+DDoS UDP,362070,DDoS-UDP_Flood,exact
+DDoS ICMP,349699,DDoS-ICMP_Flood,exact
+DDoS TCP,182598,DDoS-TCP_Flood,exact
+DDoS SYN,172397,DDoS-SYN_Flood,exact
+DoS UDP,137553,DoS-UDP_Flood,exact
+DoS SYN,98595,DoS-SYN_Flood,exact
+DoS TCP,82096,DoS-TCP_Flood,exact
+Benign,37607,BenignTraffic,exact
+Port Scan,22622,Recon-PortScan,exact
+OS Scan,3834,Recon-OSScan,exact
+Ping Sweep,186,Recon-PingSweep,exact
+ARP Spoofing,1744,TO_CONFIRM,coarse (Spoofing)
+Recon VulScan,1034,TO_CONFIRM,coarse (Recon)
+DoS ICMP,98432,,excluded
+DoS Connect Flood,45047,,excluded
+DoS Publish Flood,8505,,excluded
+DDoS Publish Flood,8416,,excluded
+Malformed Data,1747,,excluded

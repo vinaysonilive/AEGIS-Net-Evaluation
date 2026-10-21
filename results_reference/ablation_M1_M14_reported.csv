@@ -1,0 +1,15 @@
+exp_id,loss,class_weights,smote,scaler,architecture,acc,acc_sd,weighted_f1,weighted_f1_sd,macro_f1,macro_f1_sd,majority_f1,majority_f1_sd,minority_f1,minority_f1_sd,params
+M1,CE,none,off,Standard,full,97.93,0.12,0.9780,0.0011,0.6432,0.0082,0.9590,0.0015,0.2966,0.0071,210978
+M2,CE,none,on,Standard,full,97.88,0.13,0.9780,0.0012,0.6708,0.0079,0.9587,0.0016,0.3549,0.0070,210978
+M3,CE,log,off,Standard,full,98.15,0.10,0.9803,0.0009,0.6465,0.0075,0.9583,0.0013,0.3037,0.0065,210978
+M4,CE,log,on,Standard,full,98.14,0.11,0.9801,0.0010,0.6812,0.0074,0.9589,0.0014,0.3701,0.0068,210978
+M5,focal,none,off,Standard,full,97.44,0.15,0.9727,0.0014,0.6340,0.0090,0.9389,0.0021,0.2998,0.0080,210978
+M6,focal,none,on,Quantile,full (final),99.08,0.02,0.9900,0.0003,0.7481,0.0060,0.9824,0.0012,0.4905,0.0128,210978
+M7,focal,log,off,Standard,full,97.82,0.13,0.9768,0.0012,0.6590,0.0081,0.9482,0.0017,0.3204,0.0072,210978
+M8,focal,log,on,Standard,full,98.42,0.11,0.9830,0.0008,0.6954,0.0070,0.9631,0.0012,0.3850,0.0061,210978
+M9,focal,none,on,Standard,full,98.30,0.12,0.9818,0.0010,0.7010,0.0072,0.9650,0.0013,0.3920,0.0064,210978
+M10,focal,none,on,Quantile,no attention,96.43,0.22,0.9578,0.0020,0.6191,0.0110,0.8970,0.0032,0.3064,0.0095,144674
+M11,focal,none,on,Quantile,no BiLSTM,96.45,0.20,0.9621,0.0018,0.6276,0.0102,0.9073,0.0029,0.3128,0.0088,112162
+M12,focal,none,on,Quantile,no attention (param-matched),96.10,0.25,0.9540,0.0022,0.6050,0.0120,0.8890,0.0035,0.2950,0.0102,210194
+M13,focal,none,on,Quantile,no BiLSTM (param-matched),96.20,0.23,0.9552,0.0021,0.6110,0.0115,0.8920,0.0033,0.3010,0.0098,211067
+M14,focal,none,on,Quantile,MLP (param-matched),95.12,0.30,0.9440,0.0029,0.5820,0.0140,0.8750,0.0041,0.2780,0.0120,211399

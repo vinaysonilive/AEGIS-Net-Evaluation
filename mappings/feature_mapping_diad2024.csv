@@ -1,0 +1,47 @@
+position,ciciot2023_feature,status,diad_source_column
+1,flow_duration,direct,flow duration
+2,Header_Length,direct,fwd header length
+3,Protocol Type,direct,protocol
+4,Duration,approximated,see notebook cell 6.1
+5,Rate,direct,flow packets/s
+6,Srate,direct,fwd packets/s
+7,Drate,direct,bwd packets/s
+8,fin_flag_number,direct,fin flag count
+9,syn_flag_number,direct,syn flag count
+10,rst_flag_number,direct,rst flag count
+11,psh_flag_number,direct,psh flag count
+12,ack_flag_number,direct,ack flag count
+13,ece_flag_number,direct,ece flag count
+14,cwr_flag_number,direct,cwr flag count
+15,ack_count,unmapped_zero_filled,
+16,syn_count,unmapped_zero_filled,
+17,fin_count,unmapped_zero_filled,
+18,urg_count,direct,urg flag count
+19,rst_count,unmapped_zero_filled,
+20,HTTP,unmapped_zero_filled,
+21,HTTPS,unmapped_zero_filled,
+22,DNS,unmapped_zero_filled,
+23,Telnet,unmapped_zero_filled,
+24,SMTP,unmapped_zero_filled,
+25,SSH,unmapped_zero_filled,
+26,IRC,unmapped_zero_filled,
+27,TCP,approximated,see notebook cell 6.1
+28,UDP,approximated,see notebook cell 6.1
+29,DHCP,unmapped_zero_filled,
+30,ARP,unmapped_zero_filled,
+31,ICMP,approximated,see notebook cell 6.1
+32,IPv,unmapped_zero_filled,
+33,LLC,unmapped_zero_filled,
+34,Tot sum,direct,total length of fwd packet
+35,Min,direct,packet length min
+36,Max,direct,packet length max
+37,AVG,direct,packet length mean
+38,Std,direct,packet length std
+39,Tot size,direct,average packet size
+40,IAT,direct,flow iat mean
+41,Number,direct,total fwd packet
+42,Magnitue,approximated,see notebook cell 6.1
+43,Radius,approximated,see notebook cell 6.1
+44,Covariance,approximated,see notebook cell 6.1
+45,Variance,direct,packet length variance
+46,Weight,approximated,see notebook cell 6.1

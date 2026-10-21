@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "AEGIS-Net: An Imbalance-Aware CNN-Attention-BiLSTM Framework for Multi-Class IoT Intrusion Detection with Cross-Dataset Validation"
+message: "If you use this code, please cite the paper."
+authors:
+  - family-names: Soni
+    given-names: Vinaykumar N
+    affiliation: "Parul University, Vadodara, Gujarat, India"
+  - family-names: Jha
+    given-names: Ashwinikumar
+    affiliation: "Parul University, Vadodara, Gujarat, India"
+type: software
+repository-code: "[GitHub URL]"
+doi: "[Zenodo DOI]"

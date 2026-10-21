@@ -1,0 +1,11 @@
+{
+  "seeds": [7, 42, 100, 512, 2026],
+  "split_seed": 42, "val_fraction": 0.2,
+  "batch_size": 256, "epochs": 15, "patience": 5, "learning_rate": 0.001,
+  "focal_gamma": 2.0, "focal_alpha": 0.25,
+  "t_floor": 3000, "minority_threshold": 5000,
+  "quantile": {"n_quantiles": 1000, "output_distribution": "normal", "subsample": 100000},
+  "smote": {"k_neighbors": 5, "features": "all 46 (no discrete-feature mask)"},
+  "reduced_protocol": {"seed": 42, "train_fraction": 0.25, "epochs": 5, "patience": 3, "rf_trees": 100},
+  "architecture": {"conv": [64, 128], "kernel": 3, "heads": 4, "key_dim": 32, "bilstm_units": 64, "dense": 128, "dropout": [0.3, 0.3, 0.3, 0.4], "parameters": 210978}
+}
